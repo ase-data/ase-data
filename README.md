@@ -104,4 +104,4 @@
       }
     ```
     
-    * ** For any further infomration, feel free to contact us at ase-data@protonmail.com**
+* ** For any further infomration, feel free to contact us at ase-data@protonmail.com**
