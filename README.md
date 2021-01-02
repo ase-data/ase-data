@@ -103,5 +103,5 @@
           "published":"Mon, 07 Dec 2020 17:22:13 EST"}
       }
     ```
-    
-* ** For any further infomration, feel free to contact us at ase-data@protonmail.com**
+
+* **For any further infomration, feel free to contact us at ase-data@protonmail.com**:
