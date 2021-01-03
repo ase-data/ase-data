@@ -44,7 +44,7 @@
   
   - Example 1: enumerate the financial information in Tesla's annual reports:
     ```
-    URL: https://www.ase-data.com/api/stock?ticker=tsla&docs=10-k
+    URL: http://www.ase-data.com/api/stock?ticker=tsla&docs=10-k
     
     Sample Output (Most of the output is omitted):
        {
@@ -64,7 +64,7 @@
     ```
   - Example 2: enumerate the names of entities known to the SEC that are fradulent:
     ```
-    URL: https://www.ase-data.com/api/fraud
+    URL: http://www.ase-data.com/api/fraud
     
     Sample Output (Most of the output is omitted):
        {
@@ -81,7 +81,7 @@
     ```
   - Example 3: enumerate the headlines of all lidigation proceedings recently filed by the SEC, listings by defendant:
     ```
-    URL: https://www.ase-data.com/api/litigation
+    URL: http://www.ase-data.com/api/litigation
     
     Sample Output (Most of the output is omitted):
       {
