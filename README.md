@@ -14,7 +14,7 @@
         
 
 * **Documentation** 
-  - All data is accessed through requests send to:      **https://www.ase-data.com**
+  - All data is accessed through requests send to:      **http://www.ase-data.com**
     - This is the base url for all of the requests.  Any endpoint must be appended to this in requests
     - For the entirety of the documentation, the base URL will be omitted or refered to as {base-url}
     
