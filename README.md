@@ -11,12 +11,12 @@
   - ASE Data has been designed to be cheap and fast, perfect to the average developer not willing to spend hundreds or even thousands a month on public data.
        <br>       <br>
 
-        
+
 
 * **Documentation** 
   - All data is accessed through requests send to:      **http://www.ase-data.com**
     - This is the base url for all of the requests.  Any endpoint must be appended to this in requests
-    - For the entirety of the documentation, the base URL will be omitted or refered to as {base-url}
+    - For the entirety of the documentation, the base URL will be omitted or refered to as http://www.ase-data.com
     
        <br>
        
@@ -38,6 +38,16 @@
         - Returns a JSON object enumerating releases related to investing. This request takes no parameters
 
 * **Examples**:
+  - Some example endpoints once you have an api key:
+    - http://www.ase-data.com/api/stock?ticker=tsla&docs=10-k&key={api-token} 
+    - http://www.ase-data.com/api/fraud?key={api-token} 
+    - http://www.ase-data.com/litigation?key={api-token} 
+    - http://www.ase-data.com/trading_suspensions?key={api-token} 
+    - http://www.ase-data.com/sec_releases?key={api-token} 
+    - http://www.ase-data.com/investing?key={api-token} 
+    - http://www.ase-data.com/news?key={api-token} 
+
+
   - Requirements: 
     - A standard medium is needed to send requests and retreive responses from the server.
     - An example of this is the "requests" library in python, but can be any library in any language that has similar functionality
