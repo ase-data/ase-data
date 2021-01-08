@@ -41,11 +41,11 @@
   - Some example endpoints once you have an api key:
     - http://www.ase-data.com/api/stock?ticker=tsla&docs=10-k&key={api-token} 
     - http://www.ase-data.com/api/fraud?key={api-token} 
-    - http://www.ase-data.com/litigation?key={api-token} 
-    - http://www.ase-data.com/trading_suspensions?key={api-token} 
-    - http://www.ase-data.com/sec_releases?key={api-token} 
-    - http://www.ase-data.com/investing?key={api-token} 
-    - http://www.ase-data.com/news?key={api-token} 
+    - http://www.ase-data.com/api/litigation?key={api-token} 
+    - http://www.ase-data.com/api/trading_suspensions?key={api-token} 
+    - http://www.ase-data.com/api/sec_releases?key={api-token} 
+    - http://www.ase-data.com/api/investing?key={api-token} 
+    - http://www.ase-data.com/api/news?key={api-token} 
 
 
   - Requirements: 
